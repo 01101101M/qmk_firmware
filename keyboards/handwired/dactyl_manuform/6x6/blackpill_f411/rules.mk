@@ -2,11 +2,11 @@
 # SPDX-License-Identifier: GPL-2.0-or-later
 
 # MCU name
-MCU = STM32F411
-BOARD = BLACKPILL_STM32_F411
-
+MCU = STM32F103
+BOARD = STM32_F103_STM32DUINO
+LTO_ENABLE = yes
 # Bootloader selection
-BOOTLOADER = tinyuf2
+BOOTLOADER = custom
 
 # Build Options
 #   change yes to no to disable
@@ -16,7 +16,7 @@ MOUSEKEY_ENABLE = yes       # Mouse keys
 EXTRAKEY_ENABLE = yes       # Audio control and System control
 CONSOLE_ENABLE = yes        # Console for debug
 COMMAND_ENABLE = yes        # Commands for debug and configuration
-NKRO_ENABLE = no            # Enable N-Key Rollover
+NKRO_ENABLE = yes           # Enable N-Key Rollover
 BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
 AUDIO_ENABLE = no           # Audio output
