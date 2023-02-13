@@ -1,6 +1,6 @@
 #pragma once
 
-#define RGBLIGHT_EFFECT_BREATHE_TABLE
+#ydefine RGBLIGHT_EFFECT_BREATHE_TABLE
 
 // clang-format off
 
